@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TaskList from './components/TaskList.jsx';
 import TaskForm from './components/TaskForm.jsx';
-import './Styles/App.css'; // Ou './App.css', dependendo de onde você colocou os estilos
+import './styles/App.css'; // Ou './App.css', dependendo de onde você colocou os estilos
 
 function App() {
   const [tasks, setTasks] = useState([]);
